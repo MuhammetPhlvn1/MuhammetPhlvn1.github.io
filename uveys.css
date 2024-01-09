@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .menu-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .urun-listesi {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .urun {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .urun-resim {
+    max-width: 100%;
+  }
+  
+  .urun-baslik {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .urun-aciklama {
+    color: #555;
+  }
+  
+  .urun-fiyat {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .sepete-ekle {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .arama{
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+
+
+  .anadon{
+     margin-left:10px;
+     background-color: grey;
+     color: white;
+     padding: 8px 16px;
+    }

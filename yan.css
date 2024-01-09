@@ -1,0 +1,11 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sol, .orta, .sağ {
+    width: 33.33%;
+    padding: 20px;
+    border: 1px solid black;
+  }
+  
